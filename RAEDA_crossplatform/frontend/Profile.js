@@ -4,10 +4,10 @@ import {
   SafeAreaView, 
 } from 'react-native';
 
-export default function App() {
+export default function Profile() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>"This is the profile page"</Text>
+      <Text>This is the profile page</Text>
     </SafeAreaView>
   );
 }
